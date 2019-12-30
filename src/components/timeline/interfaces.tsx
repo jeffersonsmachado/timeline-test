@@ -20,5 +20,7 @@ export interface IItem {
 export interface ITransaction {
     id: string;
     store: string;
+    revenue: number;
+    timestamp: number;
     items: Array<IItem>;
 }
